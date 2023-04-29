@@ -1,4 +1,7 @@
-import time
+#!/usr/bin/python3
+
+import time, sys
+sys.path.append('/opt/homebrew/lib/python3.11/site-packages/')
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
